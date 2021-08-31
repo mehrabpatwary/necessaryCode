@@ -1,1 +1,18 @@
-
+#anim{
+    font: bold 150% Consolas, Monaco, monospace;
+    border-right: 0.1em solid;
+    width: 35ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 4s steps(27, end) infinite alternate, cursor-blink 0.2s step-end infinite alternate;
+}
+@keyframes typing{
+    from{
+        width: 0;
+    }
+}
+@keyframes cursor-blink{
+    50%{
+        border-color: transparent;
+    }
+}
